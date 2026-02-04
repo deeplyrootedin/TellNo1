@@ -76,6 +76,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   background:radial-gradient(circle at top left,rgba(148,163,184,.14),transparent 55%),var(--bg-elevated);
   transition:background 220ms ease,border-color 220ms ease,transform 200ms ease,box-shadow 220ms ease;
 }
+.btn-secondary{
+  color: var(--muted);
+}
+.btn-secondary:hover{
+  color: var(--text);
+}
 .btn-secondary:hover{transform:translateY(-1px);border-color:rgba(148,163,184,.32);box-shadow:0 20px 60px rgba(2,6,23,.16);}
 .chip{border-radius:9999px;border:1px solid var(--chip-border);background:var(--chip-bg);}
 .divider{height:1px;background:linear-gradient(to right,rgba(15,23,42,0),rgba(148,163,184,.30),rgba(15,23,42,0));}
